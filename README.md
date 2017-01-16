@@ -53,3 +53,12 @@ STACK:
 Last In First Out LIFO
 This will have an ARRAY of size MAX_SIZE and a maintaining pointer at its top TOP
 make sure if u defines a stack size of 10 and trying to insert 11th element you will face arrayindexoutofbounds exception
+
+QUEUE:
+First In First Out FIFO
+printer , a patients waiting list
+private int maxSize; //initializes the set number of slots
+	private long[] queArray; // slots to main data
+	private int front; // this will be the index position for the element in the front
+	private int rear; // going to be the index position of last element
+	private int nItems; //counter to maintain the number of items in our queue
