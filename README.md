@@ -30,6 +30,7 @@ public int getElementFrom(int []a, int index){
 }
 O(1)
 
+
 3))Quadratic time ex- nested loops:
 public int countDuplicates(int items1[], int items2[]){
 	int count;
@@ -43,3 +44,12 @@ public int countDuplicates(int items1[], int items2[]){
 	return count;
 }
 O(n^2)
+
+4)) Cubic time 3 loops O(n^3)
+
+5)) Exponential n loops O(n^n)
+
+STACK:
+Last In First Out LIFO
+This will have an ARRAY of size MAX_SIZE and a maintaining pointer at its top TOP
+make sure if u defines a stack size of 10 and trying to insert 11th element you will face arrayindexoutofbounds exception
