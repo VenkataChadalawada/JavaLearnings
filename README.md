@@ -69,4 +69,8 @@ drawbacks to arrays
 	1. if u create an array of 100 slots. u cant store an item 101. you have to create a larger array object and copy all the data over into that.
 	2.if u want to insert data into slot somewhere in the middle of that array. you need to actualy iterate over the array and reassign each of those elements intop higher values.
 	
+Linked list has always first, data and next
 
+Circular Linked list will have last pointer as well - so more efficient than singlylinked list as we have first and last in handy . using linked list we can create Stack and Queue.
+
+DoublyLinkedList every node is aware of the prev and next nodes.
