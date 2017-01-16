@@ -58,7 +58,15 @@ QUEUE:
 First In First Out FIFO
 printer , a patients waiting list
 private int maxSize; //initializes the set number of slots
-	private long[] queArray; // slots to main data
-	private int front; // this will be the index position for the element in the front
-	private int rear; // going to be the index position of last element
-	private int nItems; //counter to maintain the number of items in our queue
+private long[] queArray; // slots to main data
+private int front; // this will be the index position for the element in the front
+private int rear; // going to be the index position of last element
+private int nItems; //counter to maintain the number of items in our queue
+
+LINKEDLISTS:
+storing a collection of items.
+drawbacks to arrays
+	1. if u create an array of 100 slots. u cant store an item 101. you have to create a larger array object and copy all the data over into that.
+	2.if u want to insert data into slot somewhere in the middle of that array. you need to actualy iterate over the array and reassign each of those elements intop higher values.
+	
+
