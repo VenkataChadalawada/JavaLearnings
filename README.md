@@ -79,3 +79,7 @@ Big O notations:-------
 log n is better than n
 1 billion items can be searched with in 30 times
 
+selection sort n2
+insertion sort n2
+merge sort "nlogn" - disadvantage space(recopy) if space is not concern its good
+
