@@ -74,3 +74,8 @@ Linked list has always first, data and next
 Circular Linked list will have last pointer as well - so more efficient than singlylinked list as we have first and last in handy . using linked list we can create Stack and Queue.
 
 DoublyLinkedList every node is aware of the prev and next nodes.
+
+Big O notations:-------
+log n is better than n
+1 billion items can be searched with in 30 times
+
