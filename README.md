@@ -82,4 +82,5 @@ log n is better than n
 selection sort n2
 insertion sort n2
 merge sort "nlogn" - disadvantage space(recopy) if space is not concern its good
+quick sort nlogn on most avg cases . But worst is n2. adv over meregsort when space is concern
 
