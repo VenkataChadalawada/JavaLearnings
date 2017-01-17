@@ -84,3 +84,53 @@ insertion sort n2
 merge sort "nlogn" - disadvantage space(recopy) if space is not concern its good
 quick sort nlogn on most avg cases . But worst is n2. adv over meregsort when space is concern
 
+insert in ordered array. find the element insert after make room for new element. 
+ inserting an deleting far more effective than an array
+ searching for element is very bad
+ BST - searching benifit of ordered array, inserting & deleting linke a linkedlist advantages
+ 
+ Binary Search tree complexities:
+ 
+ Array:
+   Search(x) = O(n)
+   Insertatend(x) = O(1)
+   Remove(x) = O(n) -after removal all the we need to move one cell over to front
+LinkedList:(SLL)
+   Search(x) = need to search through every single node O(n)
+   InsertatBeg(x) = O(1) ;at the end Insert O(n); but for DLL even at end O(1)
+   remove(x) = O(n)
+   
+Binary Search Tree = O(logn) which is significantly better than Linkedlist and arrray for searching inserting and deleting
+   A tree must be balanced. An Unbalanced Tree again takes linear time O(n)
+   
+   leftchild must be smaller than  right side to say a BST is balanced
+   
+   all elements to left of any parent should be smaller to its right
+   
+   insert/delete O(logn) - tree needs to be balanced binary tree to get that
+   for all nodes the diff between the heights of the left & right subtrees must not b gretaer than one
+   
+Heap:
+   Binary heap doesnot have order .But we need to fill root left right.then left side childreen then right side childreen. fill left side first
+   two types =
+   max-heap (root node is largest number) P>=C
+   min-heap(root is smaller number than iots children) P<=C
+   
+   everytime we add somethign to heap. it needs to start from left
+   left child = 2n+1 (to find) left child of index position of 2 is at 5th pos
+   right child = 2n+2 
+   where a parent resides for a given child = Floor of (n-1)/2; eg for 12 which is at 4th position  = (4-1)/2 = 1
+   
+Graphs:--
+undirectional graphs and directional graphs (friends graph)
+represented in vertices and edge pair sets(roads, webpages)
+path - vertices u touch to reach the destination
+degree - no of edges connected to vertices
+adjacency matrix,
+adjacency list - 
+
+   
+   
+   
+   
+   
